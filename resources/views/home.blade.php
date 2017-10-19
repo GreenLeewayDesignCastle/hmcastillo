@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bodo - Simple One Page Personal</title>
+    <title>Hernan Antonio Martin Castillo</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="Bodo - Simple One Page Personal" name="description">
-    <meta content="BdgPixel" name="author">
+    <meta content="Hernan Antonio Martin Castillo" name="description">
+    <meta content="Hernan Antonio Martin Castillo" name="author">
     <!--Fav-->
     <link href="images/favicon.ico" rel="shortcut icon">
 
@@ -125,7 +125,7 @@
                       </p>
 
                       <h5 class="name">
-                        M. Reza
+                        H. Martin Castillo
                       </h5>
                       <img alt="signature" src="images/signature.png">
                     </div>
@@ -140,17 +140,17 @@
                           <tr>
                             <td class="title">Name </td>
                             <td class="break">:</td>
-                            <td> M. Reza</td>
+                            <td> H. Martin Castillo</td>
                           </tr>
                           <tr>
                             <td class="title">Phone </td>
                             <td class="break">:</td>
-                            <td> +62 8678 999 012</td>
+                            <td> +31 465 45 465</td>
                           </tr>
                           <tr>
                             <td class="title">Email </td>
                             <td class="break">:</td>
-                            <td> bdgpixel@gmail.com</td>
+                            <td>hermartin@gmail.com</td>
                           </tr>
                           <tr>
                             <td class="title">Address </td>
@@ -160,18 +160,9 @@
                           <tr>
                             <td class="title">Skype </td>
                             <td class="break">:</td>
-                            <td> bdgpixel</td>
+                            <td> hernan.martin1994</td>
                           </tr>
-                          <tr>
-                            <td class="title">Dribbble </td>
-                            <td class="break">:</td>
-                            <td> Muh-Reza</td>
-                          </tr>
-                          <tr>
-                            <td class="title">Behance</td>
-                            <td class="break">:</td>
-                            <td> m-reza</td>
-                          </tr>
+                          
                         </table>
                       </div>
                     </div>
