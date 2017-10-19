@@ -11,8 +11,37 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
-   mix.browserSync({
+
+   // .sass('resources/assets/sass/app.scss', 'public/css');
+
+mix.browserSync({
        proxy: 'hmcastillo.dev'
    });
+
+mix.copyDirectory('resources/assets/images', 'public/images');
+
+mix.styles([
+       'resources/assets/css/bootstrap.min.css',
+       'resources/assets/css/magnific-popup.css',
+       'resources/assets/css/normalize.css',
+       'resources/assets/css/owl.carousel.css',
+       'resources/assets/css/owl.theme.css',
+       'resources/assets/css/responsive.css',
+       'resources/assets/css/style.css'
+   ], 'public/css/all.css');
+
+// fix masonry problem
+mix.scripts([
+    'resources/assets/js/template/jquery-1.9.1.min.js',
+    'resources/assets/js/template/jquery.appear.js',
+    'resources/assets/js/template/bootstrap.min.js',
+    'resources/assets/js/template/classie.js',
+    'resources/assets/js/template/owl.carousel.min.js',
+    'resources/assets/js/template/jquery.magnific-popup.min.js',
+    // 'resources/assets/js/template/masonry.js',
+    // 'resources/assets/js/template/masonry.pkgd.min.js',
+    'resources/assets/js/template/smooth-scroll.min.js',
+    'resources/assets/js/template/typed.js',
+    'resources/assets/js/template/main.js',
+], 'public/js/all.js');
+// fix masonry problem
