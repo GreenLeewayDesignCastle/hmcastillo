@@ -36,6 +36,23 @@ TABLE OF CONTENTS:
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url('../fonts/raleway/Raleway-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/merriweather/merriweather-latin-300.woff');
+}
+
+
 *,
 *:after,
 *:before {
@@ -51,7 +68,7 @@ html {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   height: 100%;
   width: 100%;
 }
@@ -456,7 +473,8 @@ h3,
 h4,
 h5 {
   letter-spacing: 0.8px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Raleway-SemiBold', serif;
+
 }
 p {
   letter-spacing: 0.5px;
