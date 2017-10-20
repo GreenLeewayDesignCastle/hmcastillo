@@ -1,16 +1,16 @@
+//Variables
+@import "variables";
 
-// //Fonts
-// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-//
-// //Variables
-// @import "variables";
-//
-// //Bootstrap
-// @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+//Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
-// @import "~bootstrap/dist/css/bootstrap.min.css",
-//         "owl.carousel",
-//         "owl.theme",
-//         "magnific-popup",
-//         "style",
-//         "responsive";
+//magnific popup
+@import "~magnific-popup/dist/magnific-popup.css";
+
+//owl-carousel & owl-theme
+@import "~owl.carousel/dist/assets/owl.carousel.css",
+        "~owl.carousel/dist/assets/owl.theme.default.css";
+
+//styling
+@import "responsive",
+        "style";

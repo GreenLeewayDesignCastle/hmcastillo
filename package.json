@@ -22,7 +22,9 @@
     },
     "dependencies": {
         "babel": "^6.23.0",
-        "bootstrap": "^3.3.5",
+        "magnific-popup": "^1.1.0",
+        "node-sass": "^4.5.3",
+        "owl.carousel": "^2.2.0",
         "raleway-webfont": "^3.0.1",
         "roboto-fontface": "^0.8.0",
         "typeface-merriweather": "0.0.40",

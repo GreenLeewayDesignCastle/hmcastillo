@@ -12,21 +12,18 @@ let mix = require('laravel-mix');
  */
 
 
-   // .sass('resources/assets/sass/app.scss', 'public/css');
+mix.sass('resources/assets/sass/app.scss', 'public/css') .options({
+      processCssUrls: false
+   });
 
 mix.browserSync({
        proxy: 'hmcastillo.dev'
    });
 
 mix.copyDirectory('resources/assets/images', 'public/images');
-
 mix.copyDirectory('node_modules/raleway-webfont/fonts', 'public/fonts/raleway');
 mix.copyDirectory('node_modules/typeface-merriweather/files', 'public/fonts/merriweather');
 mix.copyDirectory('node_modules/roboto-fontface/fonts/roboto', 'public/fonts/roboto');
-
-
-
-
 
 mix.styles([
        'resources/assets/css/bootstrap.min.css',

@@ -11,7 +11,7 @@
     <link href="images/favicon.ico" rel="shortcut icon">
 
     <!--styles-->
-    <link href="{{asset('css/all.css')}}" rel="stylesheet">
+    <link href="{{asset('css/app.css')}}" rel="stylesheet">
 
     <!--[if lt IE 9]>
        <script type="text/javascript" src="js/html5shiv.min.js"></script>
