@@ -39,7 +39,7 @@ TABLE OF CONTENTS:
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/roboto/Roboto-Black.ttf');
+    src: url('../fonts/roboto/Roboto-Regular.ttf');
 }
 
 @font-face {
@@ -948,12 +948,12 @@ ul.portfolio-image li .desc{
 .wrap-about {
   height: 100%;
   width: 100%;
-  font-family: 'Roboto';
   position: relative;
   display: block;
   min-height: 480px;
 }
 .wrap-about .w-content{
+
   position: absolute;
   left: 50%;
   top: 50%;
@@ -966,6 +966,8 @@ ul.portfolio-image li .desc{
 .wrap-about .w-content td{
   font-size: 13px;
   font-weight: 300;
+  font-family: 'Roboto';
+  font-weight:300;
 }
 .wrap-about .w-content td.title{
   padding-right: 10px;

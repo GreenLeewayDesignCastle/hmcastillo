@@ -13,11 +13,6 @@
     <!--styles-->
     <link href="{{asset('css/all.css')}}" rel="stylesheet">
 
-
-    <!--fonts google-->
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-
     <!--[if lt IE 9]>
        <script type="text/javascript" src="js/html5shiv.min.js"></script>
     <![endif]-->
@@ -26,7 +21,6 @@
     <!--PRELOADER-->
     <div id="preloader">
       <div id="status">
-        {{-- <img alt="logo" src="images/logo.png"> --}}
       </div>
     </div>
     <!--/.PRELOADER END-->
@@ -36,7 +30,7 @@
       <div class="for-sticky">
         <!--LOGO-->
         <div class="col-md-2 col-xs-6 logo">
-          <a href="index.html"><img alt="logo" class="logo-nav" src="images/logo.png"></a>
+          <a href="{{url('/')}}"><img alt="logo" class="logo-nav" src="{{asset('images/logo.png')}}"></a>
         </div>
         <!--/.LOGO END-->
       </div>
@@ -191,7 +185,7 @@
                 <!--PORTFOLIO IMAGE-->
                 <ul class="portfolio-image">
                   <li class="col-md-6">
-                    <a href="images/bw-1.png"><img alt="image" src="images/bw-1.png">
+                    <a href="images/bw-1.png"><img alt="image" src="{{asset('images/bw-1.png')}}">
                       <div class="decription-wrap">
                         <div class="image-bg">
                            <p class="desc">My Resume</p>
@@ -201,7 +195,7 @@
                     </a>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/bw-2.png"><img alt="image" src="images/bw-2.png">
+                    <a href="images/bw-2.png"><img alt="image" src="{{asset('images/bw-2.png')}}">
                       <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
@@ -212,7 +206,7 @@
                     </a>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/bw-3.png"><img alt="image" src="images/bw-3.png">
+                    <a href="images/bw-3.png"><img alt="image" src="{{asset('images/bw-3.png')}}">
                       <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
@@ -223,7 +217,7 @@
                     </a>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/bw-4.png"><img alt="image" src="images/bw-4.png">
+                    <a href="images/bw-4.png"><img alt="image" src="{{asset('images/bw-4.png')}}">
                       <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
@@ -234,7 +228,7 @@
                     </a>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/bw-5.png"><img alt="image" src="images/bw-5.png">
+                    <a href="images/bw-5.png"><img alt="image" src="{{asset('images/bw-5.png')}}">
                       <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
@@ -245,7 +239,7 @@
                     </a>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/bw-6.png"><img alt="image" src="images/bw-6.png">
+                    <a href="images/bw-6.png"><img alt="image" src="{{asset('images/bw-6.png')}}">
                       <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
