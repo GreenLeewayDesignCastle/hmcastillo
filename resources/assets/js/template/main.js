@@ -2,7 +2,6 @@
   "use strict";
 
   $(window).on("load", function() { // makes sure the whole site is loaded
- console.log('test');
     //preloader
     $("#status").fadeOut(); // will first fade out the loading animation
     $("#preloader").delay(450).fadeOut("slow"); // will fade out the white DIV that covers the website.
@@ -30,8 +29,7 @@
         $(this).removeClass('active');
       })
       $(this).addClass('active');
-
-      var target = this.hash;
+      var target = this.hash,
       $target = $(target);
       $('html, body').stop().animate({
         'scrollTop': $target.offset().top+2
@@ -94,7 +92,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["My Name is M.Reza", "I'm a Web Designer", "Love Simplicity"],
+        strings: ["My Name is Hernan", "I'm a Web Developer"],
         typeSpeed: 100,
         backDelay: 900,
         // loop
@@ -188,8 +186,9 @@
     var scrollPosition = $(document).scrollTop();
     $('.menu-list a').each(function () {
       var currentLink = $(this);
-      var refElement = $(currentLink.attr("href"));
+      var refElement = $(currentLink);
       if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+
         $('.menu-list a').removeClass("active");
         currentLink.addClass("active");
       }

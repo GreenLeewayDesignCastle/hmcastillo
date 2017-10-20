@@ -67,9 +67,9 @@
             <a data-scroll="" href="#testimonial">
               <span>Testimonial</span>
             </a>
-            <a data-scroll="" href="#blog">
+            {{-- <a data-scroll="" href="#blog">
               <span>Blog</span>
-            </a>
+            </a> --}}
             <a data-scroll="" href="#contact">
               <span>Contact</span>
             </a>
