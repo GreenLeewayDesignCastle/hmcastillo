@@ -23,6 +23,9 @@
     "dependencies": {
         "babel": "^6.23.0",
         "bootstrap": "^3.3.5",
+        "raleway-webfont": "^3.0.1",
+        "roboto-fontface": "^0.8.0",
+        "typeface-merriweather": "0.0.40",
         "webpack": "^3.8.1"
     }
 }

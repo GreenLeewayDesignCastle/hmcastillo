@@ -20,6 +20,14 @@ mix.browserSync({
 
 mix.copyDirectory('resources/assets/images', 'public/images');
 
+mix.copyDirectory('node_modules/raleway-webfont/fonts', 'public/fonts/raleway');
+mix.copyDirectory('node_modules/typeface-merriweather/files', 'public/fonts/merriweather');
+mix.copyDirectory('node_modules/roboto-fontface/fonts/roboto', 'public/fonts/roboto');
+
+
+
+
+
 mix.styles([
        'resources/assets/css/bootstrap.min.css',
        'resources/assets/css/magnific-popup.css',
