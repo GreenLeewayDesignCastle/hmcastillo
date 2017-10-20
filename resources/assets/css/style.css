@@ -337,7 +337,7 @@ img { max-width: 100%; }
 }
 .menu,
 .menu-list {
-  height: 100%;     
+  height: 100%;
   overflow-x: auto;
 }
 .menu-list {
@@ -505,7 +505,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
-  background: url('../images/hero1.jpeg');
+  background: url('../images/hero1.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -940,7 +940,7 @@ ul.portfolio-image li .desc{
   transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%); 
+  -ms-transform: translateX(-50%);
 }
 
 .wrap-about .w-content td{

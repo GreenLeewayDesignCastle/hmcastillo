@@ -121,13 +121,13 @@
                   <div class="wrap-about">
                     <div class="w-content">
                       <p class="head-about">
-                        Design is the method of putting form and content together. Design, just as art, has multiple definitions there is no single definition. Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                       </p>
 
                       <h5 class="name">
                         H. Martin Castillo
                       </h5>
-                      <img alt="signature" src="images/signature.png">
+                      {{-- <img alt="signature" src="images/signature.png"> --}}
                     </div>
                   </div>
                 </div>
@@ -155,14 +155,14 @@
                           <tr>
                             <td class="title">Address </td>
                             <td class="break">:</td>
-                            <td> Cipamokolan street 102 , Bandung, Indonesia</td>
+                            <td> Rijswijkseplein 286, The Hague, The Netherlands</td>
                           </tr>
                           <tr>
                             <td class="title">Skype </td>
                             <td class="break">:</td>
                             <td> hernan.martin1994</td>
                           </tr>
-                          
+
                         </table>
                       </div>
                     </div>
@@ -720,7 +720,7 @@
         <!--/.TESTMONIAL END-->
 
         <!--BLOG-->
-        <section class="grey-bg" id="blog">
+        {{-- <section class="grey-bg" id="blog">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -843,7 +843,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> --}}
         <!--/.BLOG END-->
 
         <!--CONTACT-->
@@ -898,7 +898,7 @@
           <div class="footer-bottom">
             <div class="container">
               <div class="row">
-                <a href="https://dcrazed.com/"><img src="images/logo-bottom.png" alt="crafted with love" class="center-block" /></a>
+
 			 </div>
             </div>
           </div>
