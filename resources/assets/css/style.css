@@ -238,7 +238,7 @@ img { max-width: 100%; }
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  width: 45px;
+  width: 120px;
   display: block;
 }
 .opacity-nav {
@@ -362,6 +362,7 @@ img { max-width: 100%; }
   transform: translate3d(0, 100%, 0);
 }
 .menu-list a {
+ font-family: 'Raleway';
   display: block;
   padding: 1.5em 0;
   -webkit-transform: translate3d(0, 500px, 0);
@@ -947,6 +948,7 @@ ul.portfolio-image li .desc{
 .wrap-about {
   height: 100%;
   width: 100%;
+  font-family: 'Roboto';
   position: relative;
   display: block;
   min-height: 480px;
