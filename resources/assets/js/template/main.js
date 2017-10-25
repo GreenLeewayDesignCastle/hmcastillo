@@ -1,3 +1,7 @@
+import * as SmoothScroll from 'smooth-scroll' ;
+import * as Typed from 'typed.js';
+import 'masonry-layout';
+
 (function($) {
   "use strict";
 
@@ -5,14 +9,10 @@
     //preloader
     $("#status").fadeOut(); // will first fade out the loading animation
     $("#preloader").delay(450).fadeOut("slow"); // will fade out the white DIV that covers the website.
-
-    //masonry
-    // fix masonry problem
     // $('.grid').masonry({
     //   itemSelector: '.grid-item'
-    //
     // });
-    // fix masonry problem
+
   });
 
 
@@ -39,7 +39,7 @@
       });
     });
 
-
+    var smoothScroll = new SmoothScroll();
     //scroll js
     smoothScroll.init({
       selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
@@ -89,45 +89,14 @@
 
     inits();
 
-
-    //typed js
-    $(".typed").typed({
+    var typed = new Typed(".typed", {
         strings: ["My Name is Hernan", "I'm a Web Developer"],
         typeSpeed: 100,
         backDelay: 900,
-        // loop
         loop: true
     });
 
-    //owl carousel
-    $('.owl-carousel').owlCarousel({
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
 
-      items : 1,
-      itemsDesktop : [1199,1],
-      itemsDesktopSmall : [979,1],
-      itemsTablet : [768,1],
-      itemsMobile : [479,1],
-
-      // CSS Styles
-      baseClass : "owl-carousel",
-      theme : "owl-theme"
-    });
-
-    $('.owl-carousel2').owlCarousel({
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
-
-      items : 1,
-      itemsDesktop : [1199,1],
-      itemsDesktopSmall : [979,1],
-      itemsTablet : [768,1],
-      itemsMobile : [479,1],
-      autoPlay : false,
-
-      // CSS Styles
-      baseClass : "owl-carousel",
-      theme : "owl-theme"
-    });
 
     //contact
     $('input').blur(function() {
@@ -162,7 +131,6 @@
 
   });
 
-
   //header
   function inits() {
     window.addEventListener('scroll', function(e){
@@ -170,6 +138,7 @@
             shrinkOn = 300,
             header = document.querySelector(".for-sticky");
         if (distanceY > shrinkOn) {
+
             classie.add(header,"opacity-nav");
         } else {
             if (classie.has(header,"opacity-nav")) {

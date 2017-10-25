@@ -11,7 +11,9 @@
     <link href="images/favicon.ico" rel="shortcut icon">
 
     <!--styles-->
+
     <link href="{{asset('css/app.css')}}" rel="stylesheet">
+
 
     <!--[if lt IE 9]>
        <script type="text/javascript" src="js/html5shiv.min.js"></script>
@@ -111,20 +113,18 @@
             <div class="row">
               <!--OWL CAROUSEL2-->
               <div class="owl-carousel2">
-                <div class="col-md-12">
+                {{-- <div class="col-md-12">
                   <div class="wrap-about">
                     <div class="w-content">
                       <p class="head-about">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                       </p>
-
                       <h5 class="name">
                         H. Martin Castillo
                       </h5>
-                      {{-- <img alt="signature" src="images/signature.png"> --}}
                     </div>
                   </div>
-                </div>
+                </div> --}}
 
                 <div class="col-md-12 col-sm-12 col-xs-12 white-col">
                   <div class="row">
@@ -904,6 +904,6 @@
     <!--/.CONTENT-WRAP END-->
     </div>
 
-<script src="{{asset('js/all.js')}}"type="text/javascript"></script>
+<script src="{{asset('js/app.js')}}"type="text/javascript"></script>
   </body>
 </html>

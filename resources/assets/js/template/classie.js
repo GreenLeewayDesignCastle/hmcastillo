@@ -3,7 +3,7 @@
  * class helper functions
  * from bonzo https://github.com/ded/bonzo
  * MIT license
- * 
+ *
  * classie.has( elem, 'my-class' ) -> true/false
  * classie.add( elem, 'my-new-class' )
  * classie.remove( elem, 'my-unwanted-class' )
@@ -14,6 +14,7 @@
 /*global define: false */
 
 ( function( window ) {
+
 
 'use strict';
 
@@ -71,12 +72,12 @@ var classie = {
 };
 
 // transport
-if ( typeof define === 'function' && define.amd ) {
-  // AMD
-  define( classie );
-} else {
+// if ( typeof define === 'function' && define.amd ) {
+//   // AMD
+//   define( classie );
+// } else {
   // browser global
   window.classie = classie;
-}
+// }
 
 })( window );
