@@ -1,0 +1,18 @@
+a {
+  color: #2f2f2f;
+  text-decoration: none;
+  transition: ease .6s;
+  -webkit-transition: ease .6s;
+  -moz-transition: ease .6s;
+  -o-transition: ease .6s;
+  -ms-transition: ease .6s;
+}
+a:hover {
+  text-decoration: none;
+  color: #818181;
+}
+a:focus {
+  outline: none;
+  color: #999999;
+  text-decoration: none;
+}

@@ -1,0 +1,52 @@
+.skillst {margin-top: 30px;}
+.skillst .skillbar {
+  width: 100%;
+  height: 10px;
+  background-color: #f6f6f6;
+  position: relative;
+  margin-bottom: 60px;
+  padding: 2px;
+  box-sizing: border-box;
+}
+.skillst .count-bar {
+  width: 100%;
+  height: 5px;
+  width: 0px;
+  position: relative;
+}
+.skillst .count-bar {background-color: #818181;}
+.skillst .count-bar span{ font-size: 12px;}
+.skillst .title {
+  position: absolute;
+  line-height: 25px;
+  top: -35px;
+  left: 0;
+  padding-left: 10px;
+  font-size: 12px !important;
+}
+.skillst .count-bar .count {
+  position: absolute;
+  line-height: 18px;
+  top: -28px;
+  right: -20px;
+  width: 40px;
+  height: 18px;
+  color: #fff;
+  text-align: center;
+  background-color: #2f2f2f;
+}
+.skillst .count-bar .count span {
+  position: relative;
+  display: block;
+}
+.skillst .count-bar .count span:after {
+  position: absolute;
+  left: 50%;
+  margin-left: -4px;
+  top: 18px;
+  content: "";
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+.skillst .count-bar .count { background-color: #818181;}
+.skillst .count-bar .count span:after { border-top: 4px solid #818181;}

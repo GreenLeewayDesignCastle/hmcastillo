@@ -38818,6 +38818,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       typeSpeed: 100,
       backDelay: 900,
       loop: true
+
     });
 
     //contact

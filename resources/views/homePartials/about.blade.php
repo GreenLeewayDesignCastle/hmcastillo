@@ -41,11 +41,11 @@
                         <td class="break">:</td>
                         <td>hermartin@gmail.com</td>
                       </tr>
-                      <tr>
+                      {{-- <tr>
                         <td class="title">Address </td>
                         <td class="break">:</td>
                         <td> Rijswijkseplein 286, The Hague, The Netherlands</td>
-                      </tr>
+                      </tr> --}}
                       <tr>
                         <td class="title">Skype </td>
                         <td class="break">:</td>

@@ -7,10 +7,23 @@
 //magnific popup
 @import "~magnific-popup/dist/magnific-popup.css";
 
-//owl-carousel & owl-theme
-@import "~owl.carousel/dist/assets/owl.carousel.css",
-        "~owl.carousel/dist/assets/owl.theme.default.css";
+@import 'modules/preloader',
+        'modules/helpers',
+        'modules/skills';
 
-//styling
-@import "responsive",
-        "style";
+@import 'partials/typography',
+        'partials/base',
+        'partials/buttons',
+        'partials/header',
+        'partials/hero',
+        'partials/footer',
+        'partials/responsive';
+
+
+@import 'pages/home/portfolio',
+        'pages/home/service',
+        'pages/home/experience',
+        'pages/home/testimonial',
+        'pages/home/quote',
+        'pages/home/contact',
+        'pages/home/blog';

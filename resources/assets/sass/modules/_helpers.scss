@@ -1,0 +1,72 @@
+.no-pad {padding: 0 !important; margin: 0 !important;}
+.pad-80 {padding-top: 80px;}
+.mar-t-50{margin-top: 50px !important;}
+.mar-tm-10{ margin-top: -10px;}
+
+.white-col{
+  background: #ffffff;
+  padding: none;
+}
+
+/*---- span -----*/
+.title-small span { position: relative;}
+.title-small span:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  height: 3px;
+  background: #DEDEDE;
+  width: 28px;
+  left: 0;
+}
+.title-small-center span {position: relative;}
+.title-small-center span:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 3px;
+  background: #DEDEDE;
+  width: 28px;
+  left: 0;
+}
+/*----- background ------*/
+.grey-bg {
+  background: #f6f6f6;
+  padding: 120px 0;
+  display: block;
+}
+.white-bg {
+  background: #ffffff;
+  padding: 120px 0;
+  display: block;
+}
+/*-------- content --------*/
+.content-detail {
+  font-weight: 400;
+  margin-top: 70px;
+  line-height: 30px;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+.content-details {
+  font-weight: 400;
+  margin-top: 40px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.pad-bottom {
+  padding-bottom: 80px;
+}
+.text-detail {
+  margin-top: 30px;
+  color: #5f5f5f;
+}
+
+.listing-item{
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}

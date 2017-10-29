@@ -94,6 +94,7 @@ import 'masonry-layout';
         typeSpeed: 100,
         backDelay: 900,
         loop: true
+        
     });
 
 
