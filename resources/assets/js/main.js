@@ -4,19 +4,29 @@ import * as SmoothScroll from 'smooth-scroll' ;
 (function($) {
   "use strict";
 
-  $(window).on("load", function() { // makes sure the whole site is loaded
-    //preloader
-    $("#status").fadeOut(); // will first fade out the loading animation
-    $("#preloader").delay(450).fadeOut("slow"); // will fade out the white DIV that covers the website.
-    // $('.grid').masonry({
-    //   itemSelector: '.grid-item'
-    // });
-
-  });
+  // $(window).on("load", function() { // makes sure the whole site is loaded
+  //   //preloader
+  //   $("#status").fadeOut(); // will first fade out the loading animation
+  //   $("#preloader").delay(450).fadeOut("slow"); // will fade out the white DIV that covers the website.
+  //   // $('.grid').masonry({
+  //   //   itemSelector: '.grid-item'
+  //   // });
+  //
+  // });
 
 
   $(document).ready(function(){
 
+      //hero arrow animation buttons
+      $('#home button').hover(function(){
+          $(this).children('i').animate({
+              opacity:1,
+          }, 1000)
+      }, function(){
+          $(this).children('i').animate({
+              opacity:0,
+          }, 1000)
+      })
     //active menu
     $(document).on("scroll", onScroll);
 
@@ -93,7 +103,6 @@ import * as SmoothScroll from 'smooth-scroll' ;
 
     //contact
     $('input').blur(function() {
-
       // check if the input has any value (if we've typed into it)
       if ($(this).val())
         $(this).addClass('used');
@@ -113,8 +122,6 @@ import * as SmoothScroll from 'smooth-scroll' ;
         jQuery(this).find('.count').html('<span>' + percent + '</span>');
       });
     });
-
-
   });
 
   //header

@@ -40,7 +40,14 @@
         }
     }
     button {
-        margin-right:15px
+        margin-right:15px;
+        i{
+            opacity:0;
+            position:relative;
+            top:5px;
+            left:4px;
+            padding-bottom:13px;
+        }
     }
 
 }
