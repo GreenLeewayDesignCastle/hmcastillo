@@ -7,6 +7,9 @@
                     <h1>Hola, my name is Hernan :)</h1>
                     <h2 class="light-heading">I design and build web applications.</h2>
                     <br>
+                    
+                    <button type="button" class="btn btn-primary" name="button">I'm looking for a website</button>
+                    <button type="button" class="btn btn-secondary" name="button">I'm looking for hire</button>
                     {{-- <span class="typed"></span> --}}
                 </div>
             </div>

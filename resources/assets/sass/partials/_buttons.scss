@@ -16,3 +16,34 @@ a:focus {
   color: #999999;
   text-decoration: none;
 }
+
+.btn{
+    border-radius: 0;
+}
+
+.btn-primary  {
+    background-color: #BF0033;
+    font-family: 'Raleway-Light';
+    font-size:1rem;
+    border-color:transparent;
+    padding:10px;
+    &:hover{
+        background-color:white;
+        border-color:#BF0033;
+        color:#BF0033;
+    }
+}
+
+.btn-secondary  {
+    background-color: rgba(0,0,0,0.4);
+    font-family: 'Raleway-Light';
+    font-size:1rem;
+    color:white;
+    border-color:white;
+    padding:10px;
+    &:hover{
+        background-color: #BF0033;
+        color: white;
+
+    }
+}
