@@ -6,13 +6,14 @@
         <h3 class="title-small">
           <span>Employement</span>
         </h3>
-        <p class="content-detail">
+        {{-- <p class="content-detail">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-        </p>
+        </p> --}}
       </div>
       <div class="col-md-9 content-right">
         <div class="row">
           <ul class="listing-item">
+
             <li>
               <div class="col-md-6 col-sm-6">
                 <div class="wrap-card">
@@ -61,7 +62,7 @@
               </div>
             </li>
           </ul>
-          <ul class="listing-item">
+          {{-- <ul class="listing-item">
             <li>
               <div class="col-md-6 col-sm-6">
                 <div class="wrap-card">
@@ -109,7 +110,7 @@
                 </div>
               </div>
             </li>
-          </ul>
+          </ul> --}}
 
         </div>
       </div>

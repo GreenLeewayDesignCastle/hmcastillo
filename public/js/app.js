@@ -38813,13 +38813,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
     inits();
 
-    var typed = new __WEBPACK_IMPORTED_MODULE_1_typed_js__(".typed", {
-      strings: ["My Name is Hernan", "I'm a Web Developer"],
-      typeSpeed: 100,
-      backDelay: 900,
-      loop: true
+    // var typed = new Typed(".typed", {
+    //     strings: ["My Name is Hernan", "I'm a Web Developer"],
+    //     typeSpeed: 100,
+    //     backDelay: 900,
+    //     loop: true
+    //
+    // });
 
-    });
 
     //contact
     $('input').blur(function () {

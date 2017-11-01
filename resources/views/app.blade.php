@@ -3,12 +3,12 @@
 @include('partials._head')
 @include('partials._header')
 
-  <body id="#app">
+  <body>
     <!--PRELOADER-->
-    <div id="preloader">
+    {{-- <div id="preloader">
       <div id="status">
       </div>
-    </div>
+    </div> --}}
     <!--/.PRELOADER END-->
 
 

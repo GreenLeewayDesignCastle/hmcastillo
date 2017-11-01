@@ -7,11 +7,16 @@
           <span>Work</span>
         </h3>
         <p class="content-detail">
-          Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. <br><br>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.
+        My favourite programming language is PHP, I work the least in projects that include some kind \
+        of php framework like Laravel, Symfony or even Wordpress.
+        <br>
+        <br>
+        Picking up a new programming language or other framework is no problem.
+         I'm comfortable developing together with a team but can also work remotely.
         </p>
       </div>
       <div class="col-md-9 content-right">
-        <!--PORTFOLIO IMAGE-->
+        {{-- <!--PORTFOLIO IMAGE-->
         <ul class="portfolio-image">
           <li class="col-md-6">
             <a href="images/bw-1.png"><img alt="image" src="{{asset('images/bw-1.png')}}">
@@ -79,7 +84,7 @@
             </a>
           </li>
         </ul>
-        <!--/.PORTFOLIO IMAGE END-->
+        <!--/.PORTFOLIO IMAGE END--> --}}
       </div>
     </div>
   </div>

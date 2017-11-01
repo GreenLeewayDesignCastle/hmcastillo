@@ -4,8 +4,8 @@
         <div class="row">
             <div class="wrap-hero-content">
                 <div class="hero-content">
-                    <h1>Hello, my name is Hernan</h1>
-                    <h2 class="light-heading">I'm a web developer living in The Hague, The Netherlands</h2>
+                    <h1>Hola, my name is Hernan :)</h1>
+                    <h2 class="light-heading">I design and build web applications.</h2>
                     <br>
                     {{-- <span class="typed"></span> --}}
                 </div>

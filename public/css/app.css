@@ -8278,6 +8278,70 @@ button.close {
   border-top: 4px solid #818181;
 }
 
+html {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 500px) {
+  html {
+    font-size: 12.5px;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  html {
+    font-size: 13.5px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 14.5px;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  html {
+    font-size: 15.5px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 18px;
+  }
+}
+
 @font-face {
   font-family: 'Glyphter';
   src: url("../fonts/Glyphter.eot");
@@ -8297,12 +8361,47 @@ button.close {
 }
 
 @font-face {
+  font-family: 'Raleway-Regular';
+  src: url("../fonts/raleway/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Raleway-Light';
+  src: url("../fonts/raleway/Raleway-Light.ttf");
+}
+
+@font-face {
   font-family: 'Merriweather';
   src: url("../fonts/merriweather/merriweather-latin-300.woff");
 }
 
 .light-heading {
-  font-family: 'Roboto';
+  font-family: 'Raleway-Regular';
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+p,
+li {
+  font-size: 1rem;
 }
 
 h1,
@@ -8316,14 +8415,8 @@ h5 {
 
 p {
   letter-spacing: 0.5px;
-  font-size: 13px;
   line-height: 34px;
   font-weight: 300;
-}
-
-#home h1 {
-  line-height: 40px;
-  letter-spacing: 0.6px;
 }
 
 #home .typed {
@@ -8758,11 +8851,10 @@ a:focus {
 
 .hero-content {
   position: absolute;
-  text-align: center;
-  min-width: 300px;
-  left: 50%;
+  text-align: left;
+  min-width: 800px;
+  left: 40%;
   top: 50%;
-  padding: 65px;
   outline-offset: 8px;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
@@ -9023,6 +9115,9 @@ a:focus {
   /*------- home ------*/
   #home p {
     width: 100%;
+  }
+  .hero-content {
+    min-width: 400px;
   }
   /*----- portfolio -----*/
   .portfolio-image > li {
@@ -9372,7 +9467,7 @@ ul.portfolio-image li .desc {
 .wrap-about .w-content td {
   font-size: 16px;
   font-weight: 300;
-  font-family: 'Roboto';
+  font-family: 'Merriweather';
   font-weight: 300;
 }
 

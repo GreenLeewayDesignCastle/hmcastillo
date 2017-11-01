@@ -61,7 +61,7 @@
               </div>
             </li>
           </ul>
-          <ul class="listing-item">
+          {{-- <ul class="listing-item">
             <li>
               <div class="col-md-6 col-sm-6">
                 <div class="wrap-card">
@@ -109,7 +109,7 @@
                 </div>
               </div>
             </li>
-          </ul>
+          </ul> --}}
 
         </div>
       </div>
