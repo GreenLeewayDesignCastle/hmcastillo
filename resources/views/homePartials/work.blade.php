@@ -1,6 +1,6 @@
 <!--WORK-->
 <section class="grey-bg mar-tm-10" id="work">
-  <div class="container ">
+  <div class="container">
     <div class="row">
         <div class="col-md-7 col-sm-8 col-offset-sm-2 col-xs-8 col-offset-xs-2">
             <a href="images/portfolio-1.jpg"><img alt="image" src="{{asset('images/portfolio-1.jpg')}}">
@@ -17,9 +17,7 @@
             </p>
         </div>
     </div>
-
     <div class="separator hidden-sm hidden-xs"></div>
-
     <div class="row">
         <div class="col-md-7 col-sm-8 col-offset-sm-2 col-xs-8 col-offset-xs-2">
             <a href="images/portfolio-2.jpg"><img alt="image" src="{{asset('images/portfolio-2.jpg')}}">
@@ -36,9 +34,7 @@
             </p>
         </div>
     </div>
-
     <div class="separator hidden-sm hidden-xs"></div>
-
     <div class="row">
         <div class="col-md-7 col-sm-8 col-offset-sm-2 col-xs-8 col-offset-xs-2">
             <a href="images/portfolio-3.jpg"><img alt="image" src="{{asset('images/portfolio-3.jpg')}}">
@@ -55,9 +51,7 @@
             </p>
         </div>
     </div>
-
     <div class="separator hidden-sm hidden-xs"></div>
-
     <div class="row">
         <div class="col-md-7 col-sm-8 col-offset-sm-2 col-xs-8 col-offset-xs-2">
             <a href="images/portfolio-4.jpg"><img alt="image" src="{{asset('images/portfolio-4.jpg')}}">
@@ -74,31 +68,6 @@
             </p>
         </div>
     </div>
-    {{-- <ul class="portfolio-image">
-
-      <li class="col-md-6">
-        <a href="images/portfolio-1.jpg"><img alt="image" src="{{asset('images/portfolio-1.jpg')}}">
-        </a>
-      </li>
-
-
-
-      <li class="col-md-6">
-        <a href="images/portfolio-1.jpg"><img alt="image" src="{{asset('images/portfolio-1.jpg')}}">
-        </a>
-      </li>
-
-      <li class="col-md-6">
-        <a href="images/portfolio-1.jpg"><img alt="image" src="{{asset('images/portfolio-1.jpg')}}">
-        </a>
-      </li>
-
-      <li class="col-md-6">
-        <a href="images/portfolio-1.jpg"><img alt="image" src="{{asset('images/portfolio-1.jpg')}}">
-        </a>
-      </li>
-
-    </ul> --}}
   </div>
 </section>
 <!--/.WORK END-->
