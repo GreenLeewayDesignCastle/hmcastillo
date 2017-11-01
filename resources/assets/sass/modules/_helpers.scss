@@ -2,7 +2,13 @@
 .pad-80 {padding-top: 80px;}
 .mar-t-50{margin-top: 50px !important;}
 .mar-tm-10{ margin-top: -10px;}
-
+.separator {
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background: url('../images/separator.png');
+    height: 9px;
+    width: 576px
+}
 .white-col{
   background: #ffffff;
   padding: none;
@@ -49,6 +55,7 @@
   font-size: 14px;
   letter-spacing: 0.4px;
 }
+
 .content-details {
   font-weight: 400;
   margin-top: 40px;
@@ -69,4 +76,13 @@
   width: 100%;
   padding: 0;
   margin: 0;
+}
+
+//colours
+
+.lightBlue {
+    color:$lightBlue;
+    &:hover{
+        color:rgba($lightBlue, 0.9)
+    }
 }

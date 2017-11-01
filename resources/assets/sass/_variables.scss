@@ -2,6 +2,7 @@
 $max-375 : 'only screen and (max-width: 375px)';
 $max-480 : 'only screen and (max-width: 480px)';
 $max-768 : 'only screen and (max-width: 768px)';
+$max-1024 : 'only screen and (max-width: 1024px)';
 //media queries//
 
 //typography font-sizes
@@ -11,3 +12,5 @@ $h3-fontsize: 1.75rem;
 $h4-fontsize: 1.5rem;
 $h5-fontsize: 1.4rem;
 //typography font-sizes
+
+$lightBlue: #0769ad;
