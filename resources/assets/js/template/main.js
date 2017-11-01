@@ -1,6 +1,5 @@
 import * as SmoothScroll from 'smooth-scroll' ;
-import * as Typed from 'typed.js';
-import 'masonry-layout';
+
 
 (function($) {
   "use strict";
@@ -89,13 +88,6 @@ import 'masonry-layout';
 
     inits();
 
-    // var typed = new Typed(".typed", {
-    //     strings: ["My Name is Hernan", "I'm a Web Developer"],
-    //     typeSpeed: 100,
-    //     backDelay: 900,
-    //     loop: true
-    //
-    // });
 
 
 
@@ -109,14 +101,7 @@ import 'masonry-layout';
         $(this).removeClass('used');
     });
 
-    //pop up porfolio
-    $('.portfolio-image li a').magnificPopup({
-      type: 'image',
-      gallery: {
-        enabled: true
-      }
-      // other options
-    });
+
 
     //Skill
     jQuery('.skillbar').each(function() {

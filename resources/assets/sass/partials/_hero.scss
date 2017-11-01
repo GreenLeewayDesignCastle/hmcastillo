@@ -28,20 +28,15 @@
 .hero-content {
     text-align: left;
     min-width: 800px;
-    padding:100px 40px 40px 40px;
-    @media #{$max-375} {
-        padding:70px 20px 20px 20px;
-        button {
-            margin-bottom:15px
-        }
-    }
-    @media #{$max-480} {
-        min-width: 280px;
-    }
+    padding:200px 40px 40px 40px;
     @media #{$max-768} {
+        padding:100px 40px 40px 40px;
         min-width: 320px;
         p {
             width: 100%;
+        }
+        button {
+            margin-bottom:15px
         }
     }
     button {

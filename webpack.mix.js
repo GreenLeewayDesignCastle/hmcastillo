@@ -28,8 +28,5 @@ mix.js([
     'node_modules/jquery.appear/jquery.appear.js',
     'resources/assets/js/bootstrap.js',
     'resources/assets/js/template/classie.js',
-    'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
-    'node_modules/masonry-layout/masonry.js',
-    'node_modules/masonry-layout/dist/masonry.pkgd.js',
     'resources/assets/js/template/main.js',
 ], 'public/js/app.js');

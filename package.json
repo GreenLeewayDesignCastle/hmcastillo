@@ -27,13 +27,11 @@
     "dependencies": {
         "babel": "^6.23.0",
         "jquery.appear": "^1.0.1",
-        "magnific-popup": "^1.1.0",
         "masonry-layout": "^4.2.0",
         "node-sass": "^4.5.3",
         "raleway-webfont": "^3.0.1",
         "roboto-fontface": "^0.8.0",
         "smooth-scroll": "^12.1.5",
-        "typed.js": "^2.0.6",
         "typeface-merriweather": "0.0.40",
         "webpack": "^3.8.1"
     }
