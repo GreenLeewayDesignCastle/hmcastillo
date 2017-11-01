@@ -14,7 +14,7 @@
         <div class="row">
           <ul class="listing-item">
             <li>
-              <div class="col-md-4 col-sm-4">
+              {{-- <div class="col-md-4 col-sm-4">
                 <h3 class="icon-use">
                   c
                 </h3>
@@ -24,7 +24,7 @@
                 <p class="text-grey">
                   Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
                 </p>
-              </div>
+              </div> --}}
             </li>
 
             <li>

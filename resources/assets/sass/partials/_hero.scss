@@ -5,36 +5,53 @@
   -o-background-size: cover;
   background-size: cover;
   min-width: 100%;
-  min-height: 100%;
-  height: 100%;
+  min-height: 90%;
+  height: 90%;
   width: 100%;
   display: block;
-  color:white;
+  color: white;
+  @media #{$max-375} {
+      min-height: 95%;
+      height: 95%;
+  }
 }
-.wrap-hero-content{
+
+.wrap-hero-content {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  color:white;
+  color: white;
 }
-.hero-content{
-  position: absolute;
-  text-align: left;
-  min-width: 800px;
-  left: 40%;
-  top: 40%;
-  // padding: 65px;
-  outline-offset: 8px;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  & > span.typed{
-    color:white;
-  }
+
+.hero-content {
+    text-align: left;
+    min-width: 800px;
+    padding:100px 40px 40px 40px;
+    @media #{$max-375} {
+        padding:70px 20px 20px 20px;
+        button {
+            margin-bottom:15px
+        }
+    }
+    @media #{$max-480} {
+        min-width: 280px;
+    }
+    @media #{$max-768} {
+        min-width: 320px;
+        p {
+            width: 100%;
+        }
+    }
+    button {
+        margin-right:15px
+    }
+
 }
 
 /*mouse*/
+
 .mouse-icon {
   position: absolute;
   border: 2px solid #2f2f2f;
@@ -47,43 +64,66 @@
   display: block;
   left: 0;
   right: 0;
-  bottom: 30px;
+  bottom: 100px;
   z-index: 100;
+  .scroll {
+    -webkit-animation-name: scrolling;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: scrolling;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    position: relative;
+    border-radius: 10px;
+    background: #2f2f2f;
+    width: 4px;
+    height: 8px;
+    top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
 }
 
-.mouse-icon .scroll {
-  -webkit-animation-name: scrolling;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-play-state: running;
-  animation-name: scrolling;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-}
-.mouse-icon .scroll {
-  position: relative;
-  border-radius: 10px;
-  background: #2f2f2f;
-  width: 4px;
-  height: 8px;
-  top: 4px;
-  margin-left: auto;
-  margin-right: auto;
+@-webkit-keyframes scrolling {
+  0% {
+    top: 2px;
+    opacity: 0;
+  }
+
+  30% {
+    top: 8px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 16px;
+    opacity: 0;
+  }
 }
 
-@-webkit-keyframes scrolling  {
-  0%   { top:2px;  opacity: 0;}
-  30%  { top:8px; opacity: 1;}
-  100% { top:16px; opacity: 0;}
-}
 
-@keyframes scrolling  {
-  0%   { top:2px;  opacity: 0;}
-  30%  { top:8px; opacity: 1;}
-  100% { top:16px; opacity: 0;}
+@keyframes scrolling {
+  0% {
+    top: 2px;
+    opacity: 0;
+  }
+
+  30% {
+    top: 8px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 16px;
+    opacity: 0;
+  }
 }
