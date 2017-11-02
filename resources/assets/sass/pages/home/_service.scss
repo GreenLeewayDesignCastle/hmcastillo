@@ -4,13 +4,7 @@
               margin-bottom:50px;
           }
     }
-    .icon-use {
-      font-family: 'Glyphter';
-      font-size: 30px;
-      line-height: 20px;
-      color: #818181;
-      margin: 0;
-    }
+
     .head-sm {
       font-size: 13px;
       letter-spacing: 1.5px;
@@ -26,5 +20,15 @@
       margin-bottom: 60px;
     }
 
+     [class^="icon-"],
+     [class*=" icon-"]{
+        color:$redPink;
+        font-size:4.5rem;
+        transition:color 0.2s ease-in;
+        cursor : pointer;
+        &:hover {
+            color:$redPink;
+        }
+    }
 
 }

@@ -24,15 +24,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-#services [class^="icon-"],
-#services [class*=" icon-"]{
-    font-size:4.5rem;
-    transition:color 0.2s ease-in;
-    cursor : pointer;
-    &:hover {
-        color:$redPink;
-    }
-}
+
 
 .icon-deploy:before {
   content: "\e900";

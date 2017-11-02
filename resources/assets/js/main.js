@@ -18,14 +18,8 @@ import * as SmoothScroll from 'smooth-scroll' ;
   $(document).ready(function(){
 
       //hero arrow animation buttons
-      $('#home button').hover(function(){
-          $(this).children('i').animate({
-              opacity:1,
-          }, 1000)
-      }, function(){
-          $(this).children('i').animate({
-              opacity:0,
-          }, 1000)
+      $('#home button').on( 'mouseover mouseout',function(){
+          $(this).children('i').toggleClass('visibility-none');
       })
     //active menu
     $(document).on("scroll", onScroll);
