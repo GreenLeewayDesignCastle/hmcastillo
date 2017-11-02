@@ -2,104 +2,68 @@
 <section class="white-bg" id="services">
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-12 col-sm-12">
         <h3 class="title-small">
-          <span>Services</span>
+          <span>My Expertise</span>
         </h3>
-        <p class="content-detail">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-        </p>
       </div>
-      <div class="col-md-9 content-right">
+  </div>
+  <br>
+  <br>
+  <div class="row">
+      <div class="col-md-12 col-sm-12 ">
         <div class="row">
           <ul class="listing-item">
-            <li>
-              {{-- <div class="col-md-4 col-sm-4">
-                <h3 class="icon-use">
-                  c
-                </h3>
-                <p class="head-sm">
-                  MARKETING
-                </p>
-                <p class="text-grey">
-                  Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
-                </p>
-              </div> --}}
-            </li>
+              <li>
+                <div class="col-md-3 col-sm-6">
+                  <h1 class="icon-brainstorm"></h1>
+                  <p class="head-sm">
+                    Brainstorm
+                  </p>
+                  <p class="text-grey">
+                      Features for a project can be very broad or very specific.
+                      Together with the client I develop the application step by step to make
+                      their concept into reality.
+                  </p>
+                </div>
+              </li>
 
-            <li>
-              <div class="col-md-4 col-sm-4">
-                <h3 class="icon-use">
-                  b
-                </h3>
-                <p class="head-sm">
-                  WEB DESIGN
-                </p>
-                <p class="text-grey">
-                  Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <div class="col-md-4 col-sm-4">
-                <h3 class="icon-use">
-                  d
-                </h3>
-                <p class="head-sm">
-                  UI
-                </p>
-                <p class="text-grey">
-                  Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
-                </p>
-              </div>
-            </li>
+              <li>
+                <div class="col-md-3 col-sm-6">
+                  <h1 class="icon-design"></h1>
+                  <p class="head-sm">
+                    Design
+                  </p>
+                  <p class="text-grey">
+                      After the most important features have been chosen I design the user interface and present it, the client
+                      can have a feel of the website and small changes are made till it's fully done to be coded
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="col-md-3 col-sm-6">
+                  <h1 class="icon-develop"></h1>
+                  <p class="head-sm">
+                    Develop
+                  </p>
+                  <p class="text-grey">
+                     Here I convert the design into code and actually bring the idea of the client to reality.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="col-md-3 col-sm-6">
+                  <h1 class="icon-deploy"></h1>
+                  <p class="head-sm">
+                    Deploy
+                  </p>
+                  <p class="text-grey">
+                     After having tested the first version of the prototype carefully and having made the last changes, the deployment
+                     of the application can start :).
+                  </p>
+                </div>
+              </li>
           </ul>
-
-          <ul class="listing-item">
-            <li>
-              <div class="col-md-4 col-sm-4">
-                <p class="icon-use">
-                  f
-                </p>
-                <p class="head-sm">
-                  DIRECTOR
-                </p>
-                <p class="text-grey">
-                  Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <div class="col-md-4 col-sm-4">
-                <h3 class="icon-use">
-                  p
-                </h3>
-                <p class="head-sm">
-                  UX DESIGN
-                </p>
-                <p class="text-grey">
-                  Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <div class="col-md-4 col-sm-4">
-                <h3 class="icon-use">
-                  m
-                </h3>
-                <p class="head-sm">
-                  FRONT END
-                </p>
-                <p class="text-grey">
-                  Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
-                </p>
-              </div>
-            </li>
-          </ul>
-
         </div>
       </div>
     </div>

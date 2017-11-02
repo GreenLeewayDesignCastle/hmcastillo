@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../icons/services-icons/icomoon.eot?ij6nv7');
+  src:  url('../icons/services-icons/icomoon.eot?ij6nv7#iefix') format('embedded-opentype'),
+    url('../icons/services-icons/icomoon.ttf?ij6nv7') format('truetype'),
+    url('../icons/services-icons/icomoon.woff?ij6nv7') format('woff'),
+    url('../icons/services-icons/icomoon.svg?ij6nv7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#services [class^="icon-"],
+#services [class*=" icon-"]{
+    font-size:4.5rem;
+    transition:color 0.2s ease-in;
+    cursor : pointer;
+    &:hover {
+        color:$redPink;
+    }
+}
+
+.icon-deploy:before {
+  content: "\e900";
+}
+.icon-develop:before {
+  content: "\e901";
+}
+.icon-design:before {
+  content: "\e902";
+}
+.icon-brainstorm:before {
+  content: "\e903";
+}

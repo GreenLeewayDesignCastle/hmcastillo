@@ -22,14 +22,14 @@ a:focus {
 }
 
 .btn-primary  {
-    background-color: #BF0033;
+    background-color: $redPink;
     font-family: 'Raleway-Light';
     font-size:1rem;
     border-color:transparent;
     &:hover{
         background-color:white;
-        border-color:#BF0033;
-        color:#BF0033;
+        border-color:$redPink;
+        color:$redPink;
     }
 }
 
@@ -40,7 +40,7 @@ a:focus {
     color:white;
     border-color:white;
     &:hover{
-        background-color: #BF0033;
+        background-color: $redPink;
         color: white;
     }
 }

@@ -23,6 +23,7 @@ mix.copyDirectory('node_modules/raleway-webfont/fonts', 'public/fonts/raleway');
 mix.copyDirectory('node_modules/typeface-merriweather/files', 'public/fonts/merriweather');
 mix.copyDirectory('node_modules/roboto-fontface/fonts/roboto', 'public/fonts/roboto');
 mix.copyDirectory('node_modules/font-awesome/fonts', 'public/fonts');
+mix.copyDirectory('resources/assets/icons', 'public/icons');
 
 mix.js([
     'node_modules/jquery/dist/jquery.min.js',

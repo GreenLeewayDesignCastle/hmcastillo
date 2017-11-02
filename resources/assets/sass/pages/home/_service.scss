@@ -1,21 +1,30 @@
-.icon-use {
-  font-family: 'Glyphter';
-  font-size: 30px;
-  line-height: 20px;
-  color: #818181;
-  margin: 0;
-}
-.head-sm {
-  font-size: 13px;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-}
-.text-grey {
-  color: #434343;
-  line-height: 26px;
-  margin-bottom: 60px;
+#services {
+    .title-small {
+          @media #{$max-992} {
+              margin-bottom:50px;
+          }
+    }
+    .icon-use {
+      font-family: 'Glyphter';
+      font-size: 30px;
+      line-height: 20px;
+      color: #818181;
+      margin: 0;
+    }
+    .head-sm {
+      font-size: 13px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+    }
+    .text-grey {
+      color: #434343;
+      line-height: 26px;
+      margin-bottom: 60px;
+    }
+
+
 }

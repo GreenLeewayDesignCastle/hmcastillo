@@ -1,5 +1,5 @@
 <!--CONTACT-->
-<section id="contact" class="white-bg">
+<section id="contact" class="grey-bg">
   <div class="container">
     <div class="row">
       <div class="col-md-3">
