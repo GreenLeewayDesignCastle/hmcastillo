@@ -2,15 +2,15 @@
 <footer>
   <div class="footer-top">
     <ul class="socials">
-      <li class="facebook">
-        <a href="#" data-hover="Facebook">Facebook</a>
+      <li class="Linkedin">
+        <a href="https://www.linkedin.com/in/hernan-martin-castillo-b6253670" data-hover="Linkedin">Linkedin</a>
       </li>
-      <li class="twitter">
-        <a href="#" data-hover="Twitter">Twitter</a>
-      </li>
-      <li class="gplus">
+      {{-- <li class="codepen">
+        <a href="#" data-hover="Codepen">Codepen</a>
+      </li> --}}
+      {{-- <li class="gplus">
         <a href="#" data-hover="Google +">Google +</a>
-      </li>
+      </li> --}}
     </ul>
   </div>
 

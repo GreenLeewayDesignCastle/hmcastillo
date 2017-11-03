@@ -4,23 +4,21 @@ import * as SmoothScroll from 'smooth-scroll' ;
 (function($) {
   "use strict";
 
-  // $(window).on("load", function() { // makes sure the whole site is loaded
-  //   //preloader
-  //   $("#status").fadeOut(); // will first fade out the loading animation
-  //   $("#preloader").delay(450).fadeOut("slow"); // will fade out the white DIV that covers the website.
-  //   // $('.grid').masonry({
-  //   //   itemSelector: '.grid-item'
-  //   // });
-  //
-  // });
+  $(window).on("load", function() { // makes sure the whole site is loaded
+    //preloader
+    $("#status").delay(350).fadeOut(); // will first fade out the loading animation
+    $("#preloader").delay(500).fadeOut(); // will fade out the white DIV that covers the website.
+
+
+  });
 
 
   $(document).ready(function(){
 
       //hero arrow animation buttons
-      $('#home button').on( 'mouseover mouseout',function(){
+      $('#home a').on( 'mouseover mouseout',function(){
           $(this).children('i').toggleClass('visibility-none');
-      })
+    });
     //active menu
     $(document).on("scroll", onScroll);
 

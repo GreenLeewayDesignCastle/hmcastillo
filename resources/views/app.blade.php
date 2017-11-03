@@ -4,12 +4,7 @@
 @include('partials._header')
 
   <body>
-    <!--PRELOADER-->
-    {{-- <div id="preloader">
-      <div id="status">
-      </div>
-    </div> --}}
-    <!--/.PRELOADER END-->
+    @include('partials.preloader')
 
 
     <!--CONTENT WRAP-->

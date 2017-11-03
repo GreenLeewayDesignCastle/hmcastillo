@@ -22,7 +22,7 @@
   list-style: outside none none;
   float: left;
   overflow: hidden;
-  width: 33.33333%;
+  width: 100%;
   font-size: 13px;
 }
 
@@ -70,18 +70,18 @@
   transform: translateY(100%);
 }
 
-.facebook{
+.Linkedin{
   background: #969696;
   /*padding: 20px 0;*/
 }
-.facebook a:after{
-  background-color: #527bbb;
+.Linkedin a:after{
+  background-color: #0084bf;
 }
-.twitter{
+.codepen{
   background: #ABABAB;
 }
-.twitter a:after{
-  background-color: #77ccf1;
+.codepen a:after{
+  background-color: #47cf73;
 }
 .gplus{
   background: #d8d8d8;

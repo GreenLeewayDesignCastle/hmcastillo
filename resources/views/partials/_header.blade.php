@@ -13,19 +13,19 @@
         <a data-scroll="" href="#home" class="active">
           <span>Home</span>
         </a>
-        <a data-scroll="" href="#about">
+        {{-- <a data-scroll="" href="#about">
           <span>About</span>
-        </a>
+        </a> --}}
         <a data-scroll="" href="#work">
           <span>Work</span>
         </a>
          <a data-scroll="" href="#services">
-          <span>Services</span>
+          <span>My Expertise</span>
         </a>
-        <a data-scroll="" href="#employement">
+        {{-- <a data-scroll="" href="#employement">
           <span>Employement</span>
-        </a>
-        <a data-scroll="" href="#skill">
+        </a> --}}
+        {{-- <a data-scroll="" href="#skill">
           <span>Skills</span>
         </a>
         <a data-scroll="" href="#education">
@@ -33,7 +33,7 @@
         </a>
         <a data-scroll="" href="#testimonial">
           <span>Testimonial</span>
-        </a>
+        </a> --}}
         {{-- <a data-scroll="" href="#blog">
           <span>Blog</span>
         </a> --}}
