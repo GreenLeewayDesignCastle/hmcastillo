@@ -3,55 +3,52 @@
   <div class="container">
     <div class="row">
         <div class="col-md-7 col-sm-8 col-offset-sm-2 col-xs-8 col-offset-xs-2">
-            <a href="images/portfolio-1.jpg"><img alt="image" src="{{asset('images/portfolio-1.jpg')}}">
+            <a href="#"><img alt="image" src="{{asset('images/portfolio/power2media.png')}}">
             </a>
         </div>
         <div class="col-md-5 col-sm-12 col-xs-12">
-            <h3 class="title-small"><span>Portfolio 01</span></h3>
+            <h3 class="title-small"><span>Power2Media</span></h3>
             <p class="content-detail no-pad">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Power2Media continuously and meticulously identifies challenges enterprises
+                are facing throughout their operations during their core businesses routines
+                and subsequently creates algorithms and embeds those in applications and solutions
+                to address those challenges.  While its decisions are not technology driven but
+                market and user focused, Power2Media embeds leading edge technology
+                in its applications hence providing state of the art cloud services for enterprises.
             </p>
         </div>
     </div>
     <div class="separator hidden-sm hidden-xs"></div>
     <div class="row">
         <div class="col-md-7 col-sm-8 col-offset-sm-2 col-xs-8 col-offset-xs-2">
-            <a href="images/portfolio-2.jpg"><img alt="image" src="{{asset('images/portfolio-2.jpg')}}">
+            <a href="#"><img alt="worksprout" src="{{asset('images/portfolio/worksprout.png')}}">
             </a>
         </div>
         <div class="col-md-5 col-sm-12 col-xs-12">
-            <h3 class="title-small"><span>Portfolio 02</span></h3>
+            <h3 class="title-small"><span>Worksprout</span></h3>
             <p class="content-detail no-pad">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                WorkSprout makes it easy to find the best employer.
+                 No motivation letter or CV needed. Even better-you are in control.
+                 When there is an relevant match you choose reject or accept. It is all up to you!
+                 No sensitive personal details are known to the possible employer untill you get matched.
             </p>
         </div>
     </div>
     <div class="separator hidden-sm hidden-xs"></div>
     <div class="row">
         <div class="col-md-7 col-sm-8 col-offset-sm-2 col-xs-8 col-offset-xs-2">
-            <a href="images/portfolio-3.jpg"><img alt="image" src="{{asset('images/portfolio-3.jpg')}}">
+            <a href="#"><img alt="image" src="{{asset('images/portfolio/inbalans-yoga.png')}}">
             </a>
         </div>
         <div class="col-md-5 col-sm-12 col-xs-12">
-            <h3 class="title-small"><span>Portfolio 03</span></h3>
+            <h3 class="title-small"><span>Inbalans Yoga</span></h3>
             <p class="content-detail no-pad">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                In Balans Yoga is de yogastudio van Rotterdam-Zuid.
+                Hier wordt door de vaste leraar Irma Mahabier les gegeven volgens de B.K.S Iyengar methode.
             </p>
         </div>
     </div>
-    <div class="separator hidden-sm hidden-xs"></div>
+    {{-- <div class="separator hidden-sm hidden-xs"></div>
     <div class="row">
         <div class="col-md-7 col-sm-8 col-offset-sm-2 col-xs-8 col-offset-xs-2">
             <a href="images/portfolio-4.jpg"><img alt="image" src="{{asset('images/portfolio-4.jpg')}}">
@@ -67,7 +64,7 @@
                   in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
         </div>
-    </div>
+    </div> --}}
   </div>
 </section>
 <!--/.WORK END-->
