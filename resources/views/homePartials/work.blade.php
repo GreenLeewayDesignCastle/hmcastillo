@@ -7,7 +7,7 @@
             </a>
         </div>
         <div class="col-md-5 col-sm-12 col-xs-12">
-            <h3 class="title-small"><span>Power2Media</span></h3>
+            <h3 class="title-small"><span><a href="https://www.power2media.com">Power2Media</a></span></h3>
             <p class="content-detail no-pad">
                 Power2Media continuously and meticulously identifies challenges enterprises
                 are facing throughout their operations during their core businesses routines
@@ -25,7 +25,7 @@
             </a>
         </div>
         <div class="col-md-5 col-sm-12 col-xs-12">
-            <h3 class="title-small"><span>Worksprout</span></h3>
+            <h3 class="title-small"><span><a href="https://www.worksprout.com">Worksprout</a></span></h3>
             <p class="content-detail no-pad">
                 WorkSprout makes it easy to find the best employer.
                  No motivation letter or CV needed. Even better-you are in control.
@@ -41,21 +41,21 @@
             </a>
         </div>
         <div class="col-md-5 col-sm-12 col-xs-12">
-            <h3 class="title-small"><span>Inbalans Yoga</span></h3>
+            <h3 class="title-small"><span><a href="https://www.inbalans-yoga.com">Inbalans Yoga</a></span></h3>
             <p class="content-detail no-pad">
                 In Balans Yoga is de yogastudio van Rotterdam-Zuid.
                 Hier wordt door de vaste leraar Irma Mahabier les gegeven volgens de B.K.S Iyengar methode.
             </p>
         </div>
     </div>
-    {{-- <div class="separator hidden-sm hidden-xs"></div>
+    <div class="separator hidden-sm hidden-xs"></div>
     <div class="row">
         <div class="col-md-7 col-sm-8 col-offset-sm-2 col-xs-8 col-offset-xs-2">
-            <a href="images/portfolio-4.jpg"><img alt="image" src="{{asset('images/portfolio-4.jpg')}}">
+            <a href="images/portfolio-4.jpg"><img alt="design castle" src="{{asset('images/portfolio/design-castle.png')}}">
             </a>
         </div>
         <div class="col-md-5 col-sm-12 col-xs-12">
-            <h3 class="title-small"><span>Portfolio 04</span></h3>
+            <h3 class="title-small"><span><a href="https://www.designcastle.eu">Design Castle</a></span></h3>
             <p class="content-detail no-pad">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -64,7 +64,7 @@
                   in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
         </div>
-    </div> --}}
+    </div>
   </div>
 </section>
 <!--/.WORK END-->

@@ -1,7 +1,7 @@
 <!--FOOTER-->
 <footer>
   <div class="footer-top">
-    {{-- <ul class="socials">
+    <ul class="socials">
       <li class="facebook">
         <a href="#" data-hover="Facebook">Facebook</a>
       </li>
@@ -11,7 +11,7 @@
       <li class="gplus">
         <a href="#" data-hover="Google +">Google +</a>
       </li>
-    </ul> --}}
+    </ul>
   </div>
 
   <div class="footer-bottom">
