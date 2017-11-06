@@ -16,4 +16,9 @@
         margin-bottom:0;
         border-bottom-width:0;
     }
+    @media #{$max-480} {
+        img {
+            margin-left:-25px;
+        }
+    }
 }
