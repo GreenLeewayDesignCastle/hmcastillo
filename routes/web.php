@@ -11,4 +11,7 @@
 |
 */
 
-Route::get('/', 'PageController@getHome');
+
+Route::view('/', 'pages.home');
+
+Route::post('send',  'MailController@sendContactMail')->name('send-contact-mail');

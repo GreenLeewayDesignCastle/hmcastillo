@@ -13,22 +13,22 @@
                 </p>
             </div>
             <div class="col-md-9 content-right">
-                <form>
+                <form method="POST", action="{{route('send-contact-mail')}}" >
                     {{ csrf_field() }}
                     <div class="group">
-                        <input required="" type="text">
+                        <input required="" name="name" type="text">
                         <span class="highlight"></span>
                         <span class="bar"></span>
                         <label>Name</label>
                     </div>
                     <div class="group">
-                        <input required="" type="email">
+                        <input required="" name="email" type="email">
                         <span class="highlight"></span>
                         <span class="bar"></span>
                         <label>Email</label>
                     </div>
                     <div class="group">
-                        <textarea required=""></textarea>
+                        <textarea required="" name="message"></textarea>
                         <span class="highlight"></span>
                         <span class="bar"></span>
                         <label>Message</label>
