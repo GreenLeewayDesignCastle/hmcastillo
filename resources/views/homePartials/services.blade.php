@@ -20,7 +20,7 @@
                   <p class="head-sm">
                     Brainstorm
                   </p>
-                  <p class="text-grey">
+                  <p class="text-lightRed">
                       Features for a project can be very broad or very specific.
                       Together with the client I develop the application step by step to make
                       their concept into reality.
@@ -34,7 +34,7 @@
                   <p class="head-sm">
                     Design
                   </p>
-                  <p class="text-grey">
+                  <p class="text-lightRed">
                       After the most important features have been chosen I design the user interface and present it, the client
                       can have a feel of the website and small changes are made till it's fully done to be coded
                   </p>
@@ -46,7 +46,7 @@
                   <p class="head-sm">
                     Develop
                   </p>
-                  <p class="text-grey">
+                  <p class="text-lightRed">
                      Here I convert the design into code and actually bring the idea of the client to reality.
                   </p>
                 </div>
@@ -57,7 +57,7 @@
                   <p class="head-sm">
                     Deploy
                   </p>
-                  <p class="text-grey">
+                  <p class="text-lightRed">
                      After having tested the first version of the prototype carefully and having made the last changes, the deployment
                      of the application can start :).
                   </p>

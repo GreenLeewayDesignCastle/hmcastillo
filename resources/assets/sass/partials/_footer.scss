@@ -1,98 +1,103 @@
 .footer-top{
-  width: 100%;
-  text-align: center;
-  color: #cccccc;
-  display: table;
+    width: 100%;
+    text-align: center;
+    color: #cccccc;
+    display: table;
 }
 
 .socials{
-  width: 100%;
-  margin: 0;
-  padding: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .socials * {
-  box-sizing: border-box;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
 }
 
 .socials li {
-  display: inline-block;
-  list-style: outside none none;
-  float: left;
-  overflow: hidden;
-  width: 100%;
-  font-size: 13px;
+    display: inline-block;
+    list-style: outside none none;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    font-size: 13px;
 }
 
 .socials a {
-  padding: 0.3em 0.8em;
-  color: rgba(255, 255, 255, 0.7);
-  position: relative;
-  display: inline-block;
-  letter-spacing: 1px;
-  margin: 0;
-  text-decoration: none;
-  padding: 25px 0;
-  width: 100%;
+    padding: 0.3em 0.8em;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 0;
+    text-decoration: none;
+    padding: 25px 0;
+    width: 100%;
 }
 
 .socials a:before,
 .socials a:after {
-  position: absolute;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
 }
 
 .socials a:before {
-  bottom: 100%;
-  display: block;
-  height: 3px;
-  width: 100%;
-  content: "";
+    bottom: 100%;
+    display: block;
+    height: 3px;
+    width: 100%;
+    content: "";
 }
 
 .socials a:after {
-  padding: 0.3em 0.8em;
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  content: attr(data-hover);
-  color: white;
-  white-space: nowrap;
-  width: 100%;
-  padding: 25px 0;
+    padding: 0.3em 0.8em;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    content: attr(data-hover);
+    color: white;
+    white-space: nowrap;
+    width: 100%;
+    padding: 25px 0;
 }
 
 .socials li:hover a,
 .socials .current a {
-  transform: translateY(100%);
+    transform: translateY(100%);
 }
 
 .Linkedin{
-  background: #969696;
-  /*padding: 20px 0;*/
+    background: #969696;
+    /*padding: 20px 0;*/
 }
 .Linkedin a:after{
-  background-color: #0084bf;
+    background-color: #0084bf;
 }
 .codepen{
-  background: #ABABAB;
+    background: #ABABAB;
 }
 .codepen a:after{
-  background-color: #47cf73;
+    background-color: #47cf73;
 }
 .gplus{
-  background: #d8d8d8;
+    background: #d8d8d8;
 }
 .gplus a:after{
-  background: #dd4b39;
+    background: #dd4b39;
 }
 
+
 .footer-bottom{
-  width: 100%;
-  background: #2f2f2f;
-  padding: 80px 0;
-  color: #636363;
+    width: 100%;
+    background: #2f2f2f;
+    padding: 80px 0;
+    color: #636363;
+    img.logo {
+        display:block;
+        margin: 0 auto;
+    }
 }

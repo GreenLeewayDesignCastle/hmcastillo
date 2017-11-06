@@ -1,5 +1,7 @@
 #services {
+    background: #2f2f2f;
     .title-small {
+        color:white;
           @media #{$max-992} {
               margin-bottom:50px;
           }
@@ -16,6 +18,11 @@
     }
     .text-grey {
       color: #434343;
+      line-height: 26px;
+      margin-bottom: 60px;
+    }
+    .text-lightRed {
+      color: lighten($redPink, 50%);
       line-height: 26px;
       margin-bottom: 60px;
     }
